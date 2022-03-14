@@ -30,6 +30,6 @@ Veuillez vous référer à la section Modeling du notebook `OCT.ipynb`.
 
 J'ai mis en place une application web, en utilisant [Streamlit]( https://www.streamlit.io/). Cette application permettra de choisir un modèle, de télécharger un OCT et d'afficher le résultat de la classification. Voir [ici](https://github.com/SRabah07/ai-oct-detection/oct-streamlit.py) pour plus de détails sur l'implémentation.
 
-L'utilisation de cette application, requiert l'exécution du notebook (voir ci-dessous), et de sauvegarder les modèles générés, dans le dossier [models](https://github.com/SRabah07/ai-oct-detection/models). J'ai mis les modèles `CNN`, `LeNet` et `VGG16` au format `zip`.
+L'utilisation de cette application, requiert l'exécution du notebook (voir ci-dessous), et de sauvegarder les modèles générés, dans le dossier **models**. J'ai mis les modèles `CNN`, `LeNet` et `VGG16` au format `zip`.
 
 La commande qui lance l'application streamlit est : `streamlit run oct-streamlit.py`
